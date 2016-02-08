@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.vismay.pocketgenie.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/MainActivitytoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.vismay.pocketgenie.MainActivity"
+        tools:showIn="@layout/activity_main"
+        android:background="#089000">
+
+        <TextView
+            android:id="@+id/MainActivityTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="@string/MainActivityStr1"
+            android:typeface="serif"
+            android:textSize="30sp"
+            android:textColor="#F11111"
+            android:layout_centerHorizontal="true"/>
+        <EditText
+            android:id="@+id/MainActivityEditText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/MainActivityTextView1"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_centerHorizontal="true"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textColor="#F11111"
+            android:textSize="25sp"/>
+        <Button
+            android:id="@+id/MainActivityButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/MainActivityEditText1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/button_horizontal_padding"
+            android:paddingLeft="@dimen/button_horizontal_padding"
+            android:paddingTop="@dimen/button_vertical_padding"
+            android:paddingBottom="@dimen/button_vertical_padding"
+            android:text="@string/MainActivityStr2"
+            android:typeface="serif"
+            android:textColor="#F11111"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/MainActivityTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="@string/MainActivityStr3"
+            android:typeface="serif"
+            android:textColor="#F11111"
+            android:textSize="30sp"
+            android:layout_below="@id/MainActivityButton1"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <Button
+            android:id="@+id/MainActivityButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/MainActivityTextView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/button_horizontal_padding"
+            android:paddingLeft="@dimen/button_horizontal_padding"
+            android:paddingTop="@dimen/button_vertical_padding"
+            android:paddingBottom="@dimen/button_vertical_padding"
+            android:text="@string/MainActivityStr4"
+            android:typeface="serif"
+            android:textColor="#F11111"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

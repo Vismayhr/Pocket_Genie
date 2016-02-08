@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pocket Genie</string>
+    <string name="action_settings">Settings</string>
+    <string name="MainActivityStr1">Enter Locality Name</string>
+    <string name="MainActivityStr2">Explore Locality</string>
+    <string name="MainActivityStr3">-or-</string>
+    <string name="MainActivityStr4">Places Around Me</string>
+</resources>
